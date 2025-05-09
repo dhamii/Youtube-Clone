@@ -1,0 +1,50 @@
+.video{
+}
+
+.search{
+    display: block;
+}
+.thumbnail{
+    width: 100%;
+
+}
+.video-details{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.channel-logo{
+    width: 40px;
+    border-radius: 50%;
+}
+.video-title{
+    font-family: roboto, arial;
+    font-weight: 500;
+    margin: 0;
+}
+
+.channel-name{
+    margin-top: 0;
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 0;
+    font-family: roboto, arial;
+}
+
+.channel-stats{
+    margin-top: 6px;
+    font-size: 14px;
+    color: #606060;
+    font-family: roboto, arial;
+}
+
+.channel-logo-container{
+    width: 50px;
+    vertical-align: top;
+}
+.total-grid{
+    display: grid;
+    column-gap: 12px;
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
