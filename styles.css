@@ -3,6 +3,8 @@
 body{
     margin: 0;
     padding-bottom: 1000px;
+    padding-left: 67px;
+    padding-top: 75px;
 }
 .video{
 }
@@ -15,6 +17,20 @@ body{
     font-size: 18px;
     width: 0;
 }
+
+.timestamp{
+    position: absolute;
+    background-color: black;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: roboto, arial;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
  .search-button{
     width: 50px;
     height: 45px;
@@ -30,8 +46,10 @@ body{
 }
 .thumbnail{
     width: 100%;
+    position: relative;
 
 }
+
 .video-details{
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -84,6 +102,9 @@ body{
     top: 0;
     right: 0;
     left: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
 }
 
 
@@ -105,4 +126,16 @@ body{
     align-items: center;
     justify-content: space-between;
 
+}
+
+/*Sidebar part*/
+
+.sidebar{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 65px;
 }
